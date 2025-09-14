@@ -202,3 +202,36 @@ They are mostly interesting from a state-of-the-art perspective.
 ## OPTIONAL: Share Feedback
 
 Feel free to ask questions in the [GitHub Discussions](https://github.com/denisecase/pro-analytics-01/discussions) or raise a [GitHub Issue](https://github.com/denisecase/pro-analytics-01/issues) if you have suggestions or need additional clarification.
+---
+
+## 📊 Project 4: Exploratory Data Analysis (EDA)
+
+This project demonstrates a **step-by-step exploratory data analysis** (EDA) using the classic Iris dataset. The notebook follows a structured nine-step workflow:
+
+1. Imports  
+2. Load Data  
+3. Initial Data Inspection  
+4. Initial Descriptive Statistics  
+5. Initial Data Distribution (numeric & categorical)  
+6. Initial Data Transformation & Feature Engineering  
+7. Initial Visualizations  
+8. Initial Insights  
+9. Storytelling & Presentation  
+
+### ✅ Key Features
+- Cleaned dataset with renamed columns and an engineered feature (*Sepal Area*).  
+- Multiple visualizations (histograms, count plots, pair plots, scatter plots).  
+- Clear Markdown commentary explaining observations at each step.  
+- Notebook runs **top-to-bottom without errors**.  
+
+### 📂 Files
+- [Project 4 Notebook](./project-04-eda/project04-eda-sandra-otubushin.ipynb) – Full executed Jupyter Notebook with outputs.  
+- `requirements.txt` – Python dependencies for environment setup.  
+
+### ▶️ How to Run (Windows)
+```powershell
+git clone https://github.com/larrygold18/pro-analytics-01-datafun-04-notebooks.git
+cd pro-analytics-01-datafun-04-notebooks
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
